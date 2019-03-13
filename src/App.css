@@ -1,0 +1,121 @@
+
+body{
+  background: rgb(236, 236, 236);
+} 
+
+
+.App {
+  text-align: center;  
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.student-box{
+  background: white;
+  max-width:500px;
+  margin:5rem auto;
+  border: 0.5px solid rgb(163, 163, 163);
+  padding:1rem ;     
+  border-radius: 5px;  
+  box-shadow: 0 1px 1px rgba(102, 102, 102, 0.5);
+}
+
+nav ul{
+  height:500px; 
+  overflow:hidden; 
+  overflow-y:scroll;
+  list-style-type: none;
+  padding-right: 17px;   
+
+}
+h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: x-large;
+  text-align: left;
+}
+
+nav ul div img{
+  float: left;
+  margin: 0 15px 0 0;
+  border-radius: 50%;  
+  border: .5px solid;
+}
+nav ul div button{
+  float: right;
+}
+
+
+
+nav ul p{
+  font: 12px Helvetica, serif;  
+  overflow: auto;
+  margin-left: 0rem;
+  text-align: left;
+}
+
+input{  
+  width:90%;
+  outline: none;
+  border: none;
+  border-bottom: .5px solid;
+}
+
+.test-list{
+  font-size: small;
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.student-text{
+  width:100%;
+  padding: 0 0 2rem 8rem;
+}
+
+.tag-input{
+  width: 25%;
+  outline: none;
+  border: none;  
+  float: left;
+  border-bottom: .5px solid;
+}
+
+.border-div{
+  border-bottom: .5px solid;  
+}
+.tag-box{
+  padding: 5px; 
+  border-radius: 5px;
+  margin-right: 5px;
+  background: lightgray;
+  text-align: center;
+  display: inline;
+}
